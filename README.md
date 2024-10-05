@@ -30,8 +30,26 @@ A RESTful API for managing a bookstore, built using the **Laravel framework**. T
 - **Composer** for PHP dependency management
 - **PHP** >= 8.1
 - **Postman** (for testing API endpoints)
-
   
+## API Endpoints
+### Authentication
+
+| Method | Endpoint        | Description           | Auth Required |
+|--------|-----------------|-----------------------|---------------|
+| POST   | `/api/register` | Register a new user    | No            |
+| POST   | `/api/login`    | Login a user           | No            |
+| POST   | `/api/logout`   | Logout a user          | Yes           |
+
+### Book Management (Admin-only for Write Operations)
+
+| Method | Endpoint           | Description                     | Auth Required | Role  |
+|--------|--------------------|----------------------------------|---------------|-------|
+| GET    | `/api/books`        | Get a list of all books          | No            | Any   |
+| POST   | `/api/books`        | Create a new book                | Yes           | Admin |
+| GET    | `/api/books/{id}`   | Get details of a specific book   | No            | Any   |
+| PUT    | `/api/books/{id}`   | Update an existing book          | Yes           | Admin |
+| DELETE | `/api/books/{id}`   | Delete a book                    | Yes           | Admin |
+
 ## Installation Instructions
 
 Follow these steps to install and run the project locally.
