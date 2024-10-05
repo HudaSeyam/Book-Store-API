@@ -9,7 +9,6 @@ A RESTful API for managing a bookstore, built using the **Laravel framework**. T
   - Eloquent ORM for interacting with the database
 - **CRUD Operations**:
   - Create, read, update, and delete books
-  - Pagination, search, and filtering on book resources
 - **Authentication & Authorization**:
   - User registration and login system
   - Protected routes using Laravel Sanctum
