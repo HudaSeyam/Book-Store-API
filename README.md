@@ -67,7 +67,6 @@ Run the database migrations to create the necessary tables:
 ```bash
 php artisan migrate
 ```
-```
 ### Step 4: Start the Development Server
 Now, you can start the Laravel development server:
 ```bash
