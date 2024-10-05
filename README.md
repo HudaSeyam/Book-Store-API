@@ -39,8 +39,8 @@ Follow these steps to install and run the project locally.
 ### Step 1: Clone the Repository
 First, clone the repository from GitHub:
 ```bash
-git clone https://github.com/HudaSeyam/E-Commerce-Laravel-.git
-cd e-commerce-laravel
+git clone https://github.com/HudaSeyam/Book-Store-API.git
+cd book-store-api
 ```
 
 ### Step 2: Set Up the Environment
