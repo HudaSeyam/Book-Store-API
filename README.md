@@ -1,4 +1,4 @@
-# My Bookstore API
+# Bookstore API
 
 A RESTful API for managing a bookstore, built using the **Laravel framework**. This API allows users to perform CRUD operations on books, and manage users and includes authentication and authorization using **Laravel Sanctum**.
 
