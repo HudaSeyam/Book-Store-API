@@ -62,6 +62,10 @@ cd book-store-api
 ```
 
 ### Step 2: Set Up the Environment
+Install the dependencies:
+```bash
+composer install
+```
 Copy the example environment file and update the environment variables:
 ```bash
 cp .env.example .env
@@ -79,7 +83,6 @@ Generate the Laravel application key:
 ```bash
 php artisan key:generate
 ```
-
 ### Step 3: Run Migrations
 Run the database migrations to create the necessary tables:
 ```bash
